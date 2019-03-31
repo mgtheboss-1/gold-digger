@@ -1,0 +1,73 @@
+<!-- This is a static file -->
+<!-- served from your routes in server.js -->
+
+<!-- You might want to try something fancier: -->
+<!-- html/nunjucks docs: https://mozilla.github.io/nunjucks/ -->
+<!-- pug: https://pugjs.org/ -->
+<!-- haml: http://haml.info/ -->
+<!-- hbs(handlebars): http://handlebarsjs.com/ -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Submit</title>
+    <meta name="description" content="A cool thing made with Glitch">
+    <link id="favicon" rel="icon" href="https://glitch.com/edit/favicon-app.ico" type="image/x-icon">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <style>
+    html {
+        background: #43C6AC;
+        /* fallback for old browsers */
+        background: -webkit-linear-gradient(to left, #F8FFAE, #43C6AC);
+        /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to left, #F8FFAE, #43C6AC);
+        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        color: white;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    div#content {
+        padding-left: 15px;
+    }
+
+    a {
+        color: white;
+    }
+
+    form {
+        display: none;
+    }
+
+    input {
+        border: 0;
+        outline: 0;
+        background: transparent;
+        border-bottom: 1px solid white;
+        caret-color: white;
+        color: white;
+        font-family: 'Montserrat', sans-serif;
+
+    }
+    </style>
+
+
+    <!-- import the webpage's client-side javascript file -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="/client.js" defer></script>
+</head>
+
+<body>
+    <span style="font-size: 1000%; ">GOLD DIGGER</span><br>
+    <div id="content">
+        You have successfully submitted data. You will receive a report within 15 days.<br><br>
+        <a href="/" style="text-decoration: none;">←</a>
+    </div>
+
+
+</body>
+
+</html>

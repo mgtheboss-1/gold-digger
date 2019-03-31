@@ -1,0 +1,32 @@
+{
+  "//1": "describes your app and its dependencies",
+  "//2": "https://docs.npmjs.com/files/package.json",
+  "//3": "updating this file will download and update your packages",
+  "name": "gold-digger",
+  "version": "1.0",
+  "description": "An app that tells whether a stone contains traces of gold.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@okta/oidc-middleware": "^2.0.0",
+    "express": "^4.16.4",
+    "express-session": "^1.15.6",
+    "ejs": "^2.6.1",
+    "mongodb": "^3.1.11",
+    "body-parser": "^1.18.3"
+  },
+  "engines": {
+    "node": "8.x"
+  },
+  "repository": {
+    "url": "https://glitch.com/edit/#!/gold-digger"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "express"
+  ]
+}
